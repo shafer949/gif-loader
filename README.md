@@ -22,9 +22,11 @@ Given the included stylesheet and html files, write JavaScript so that when a us
 To be completed after the above requirements are met.
 
 As our project stands currently, the paragraph tag doesn't update to reflect the newly added gif.
+
 * update the paragraph tag
 
 Right now our API fetches a bunch of results when a request is made! Let's just limit that to 5.
+
 * Limit the amount of gifs coming back to 5.
 
 **If you attended one of my class sessions, then in your code, you have the line:**
