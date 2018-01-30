@@ -42,7 +42,7 @@ const fetchGifs = (searchTerm) => {
    return fetch(`${BASE_URL}${searchTerm}`)
     .then(res => res.json())
     .then(data => data.data.filter((item, index) => {
-        return index < GIF_LIMIT && index;
+        return index <= GIF_LIMIT && index;
     }))
 };
 
