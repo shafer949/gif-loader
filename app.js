@@ -11,6 +11,7 @@ input.focus();
 
 const addChildren = (parent, index) => {
     const container = parent.appendChild(document.createElement('div'));
+    container.className = 'gif-image-container';
     const link = container.appendChild(document.createElement('a'));
     const image = link.appendChild(document.createElement('img'));
     container.id = index != undefined ? 'gif-image-container-' + index : 'gif-image-container-welcome';
